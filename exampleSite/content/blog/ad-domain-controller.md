@@ -2,7 +2,7 @@
 categories = ["Red Teaming", "Active Directory"]
 date = 2022-06-29T15:00:00Z
 description = "this is meta description"
-image = "images/post/DomainController.png"
+image = "images/post/DomainControllers.png"
 tags = ["Domain Controller"]
 title = "AD Domain Controller "
 type = "post"
