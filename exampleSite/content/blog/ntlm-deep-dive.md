@@ -2,7 +2,7 @@
 categories = []
 date = 2019-10-29T04:07:47Z
 description = "this is meta description"
-image = "images/post/NTLM.jpg"
+image = "images/post/ntlm.png"
 tags = []
 title = "NTLM Deep Dive"
 type = "post"
