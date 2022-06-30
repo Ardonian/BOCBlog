@@ -2,7 +2,6 @@
 categories = ["Red Teaming", "Active Directory"]
 date = 2022-06-29T15:00:00Z
 description = "this is meta description"
-draft = true
 image = "images/post/ADBasics.png"
 tags = ["AD Basics"]
 title = "Active Directory - The Basics"
