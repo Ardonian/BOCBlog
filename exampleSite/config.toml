@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/liva/examplesite/"
 languageCode = "en-us"
-title = "Liva | Personal blog template"
+title = "Barry"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
@@ -86,11 +86,11 @@ author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+# mobile = "0124857985320"
+# email = "demo@email.com"
+location = "Japan"
 # copyright
-copyright = "| copyright &copy; 2021 [Themefisher](https://themefisher.com/hugo-themes/) All Rights Reserved |"
+# copyright = "| copyright &copy; 2022 All Rights Reserved |"
 
 # Preloader
 [params.preloader]
@@ -103,7 +103,7 @@ enable = true
 
 ############################ news letter ########################
 [params.newsletter]
-enable = true
+enable = false
 title = "Join Our Newsletter"
 content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
 
