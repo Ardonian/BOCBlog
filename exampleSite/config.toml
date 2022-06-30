@@ -54,10 +54,10 @@ name = "Post"
 URL = "blog/"
 weight = 2
 
-[[menu.main]]
-name = "Contact"
-URL = "contact/"
-weight = 3
+# [[menu.main]]
+# name = "Contact"
+# URL = "contact/"
+# weight = 3
 
 # footer menu
 [[menu.footer]]
@@ -70,11 +70,10 @@ name = "Post"
 URL = "blog/"
 weight = 2
 
-[[menu.footer]]
-name = "Contact"
-URL = "contact/"
-weight = 3
-
+# [[menu.footer]]
+# name = "Contact"
+# URL = "contact/"
+# weight = 3
 
 #################### default parameters ################################
 [params]
