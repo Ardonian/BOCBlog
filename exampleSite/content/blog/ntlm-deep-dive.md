@@ -1,9 +1,9 @@
 +++
-categories = []
-date = 2019-10-29T04:07:47Z
+categories = ["Red Teaming", "Active Directory"]
+date = 2022-06-29T15:00:00Z
 description = "this is meta description"
 image = "images/post/ntlm.png"
-tags = []
+tags = ["NTLM"]
 title = "NTLM Deep Dive"
 type = "post"
 
