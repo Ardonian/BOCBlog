@@ -5,4 +5,5 @@ image: images/author.jpg
 description: this is meta description
 
 ---
-Red Teamer | Programmer | Japan |
+Red Teamer | Global Citizen | 日本
+
