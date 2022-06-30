@@ -1,16 +1,8 @@
 ---
-title: "Me"
-date: 2019-10-29T13:49:23+06:00
-draft: false
+title: Me
+date: 2022-06-30T00:00:00+09:00
+image: images/author.jpg
+description: this is meta description
 
-# image
-image: "images/author.jpg"
-
-# meta description
-description: "this is meta description"
-
-# type
-type : "about"
 ---
-
-Red Teamer | Programmer | Japan | 
+Red Teamer | Programmer | Japan |
