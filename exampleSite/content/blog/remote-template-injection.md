@@ -2,7 +2,6 @@
 categories = ["Red Teaming", "Microsoft Office"]
 date = 2022-06-29T15:00:00Z
 description = "this is meta description"
-draft = true
 image = "images/post/remote.png"
 tags = ["Remote Template Injection"]
 title = "Remote Template Injection "
@@ -13,13 +12,19 @@ type = "post"
 
 Injecting malicious macros into Microsoft Word documents is by no means a new and novel attack vector. It's been used to death, literally. Microsoft will disable all macros by default **in?**
 
-A red team specialist (or malicious actor) will write and inject some malicious VBA code in the macro section of an office document that will execute using **AUTO_OPEN** when the document is loaded. The document itself usually contains some content that is related to the attack or phishing scenario. For example, sending a resume to a human resources department. The majority of good AV and EDR solutions will detect this attack today and block execution of the macro payload. 
+A red team specialist (or malicious actor) will write and inject some malicious VBA code in the macro section of an office document that will execute using **AUTO_OPEN** when the document is loaded. The document itself usually contains some content that is related to the attack or phishing scenario. For example, sending a resume to a human resources department. The majority of good AV and EDR solutions will detect this attack today and block execution of the macro payload.
 
-Now, imagine having a document that doesn't include malicious code. A completely safe, friendly, innocent and benign .docx file. Except, that the document contains a link to a malicious remote template document that will load once the document is opened. This attack vector is known as remote template injection. Malicious code is stored remotely and and loaded as a remote template, without even touching the disk. 
+Now, imagine having a document that doesn't include malicious code. A completely safe, friendly, innocent and benign .docx file. Except, that the document contains a link to a malicious remote template document that will load once the document is opened. This attack vector is known as remote template injection. Malicious code is stored remotely and and loaded as a remote template, without even touching the disk.
 
-##### Attack Demonstration  
+##### Attack Demonstration
 
-This demonstration is for educational purposes only. In the following demo, I will use C#, TrustedSec's Unicorn and PowerShell 
+This demonstration is for educational purposes only. Don't be an idiot. Use your hacking skills to make the world a better and safer place.
+
+In the following demo, I will use C#, TrustedSec's Unicorn and PowerShell to create a .docx file with a link to a malicious remote template that will execute once the document is open. In this demo, I am using Cobalt Strike but you can use any C2 of your choosing.
+
+##### 1: Generate the Payload
+
+![](/uploads/rti_1.png)
 
 ##### Link
 
