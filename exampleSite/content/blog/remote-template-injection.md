@@ -8,9 +8,13 @@ title = "Remote Template Injection "
 type = "post"
 
 +++
-##### Windows New Technology 
+##### Remote Template Injection Explained
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
+Injecting malicious macros into Microsoft Word documents is by no means a new and novel attack vector. It's been used to death, literally. Microsoft will disable all macros by default **in?**
+
+A red team specialist (or malicious actor) will write and inject some malicious VBA code in the macro section of an office document that will execute using **AUTO_OPEN** when the document is loaded. The document itself usually contains some content that is related to the attack scenario. For example, sending a resume to a human resources department. 
+
+The majority of good AV and EDR solutions will detect this attack today and block execution of the macro payload. 
 
 ##### Link
 
