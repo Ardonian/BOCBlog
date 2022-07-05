@@ -2,17 +2,20 @@
 categories = ["Red Teaming", "Active Directory"]
 date = 2022-06-29T15:00:00Z
 description = "this is meta description"
+draft = true
 image = "images/post/DomainControllers.png"
 tags = ["Domain Controller"]
 title = "AD Domain Controller "
 type = "post"
 
 +++
-##### AD Domain Controllers 
+##### Active Directory Domain Controllers
 
-On the journey to becoming a red teaming legend, you will frequently hear terms like "Active Directory", "domain controller" and "look mom, I'm a domain admin!". In this post,  I will attempt to explain what a domain controller is and what it does. 
+On the journey to becoming a red teaming legend, you will frequently hear terms like "Active Directory", "domain controller" and "look mom, I'm a domain admin!". In this post I will attempt to explain what a domain controller is... 
 
-##### Link
+In most cases an organization manage identities using Active Directory 
+
+##### Li
 
 [I'm an inline-style link](https://www.google.com)
 
@@ -33,10 +36,6 @@ example.com (but not on Github, for example).
 Some text to show that the reference links can follow later.
 
 <hr>
-
-##### Paragraph
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
 
 * 
 
