@@ -22,13 +22,17 @@ This demonstration is for educational purposes only. Don't be an idiot. Use your
 
 In the following demo, I will use C#, TrustedSec's Unicorn and PowerShell to create a .docx file with a link to a malicious remote template that will execute once the document is open. In this demo, I am using Cobalt Strike but you can use any C2 of your choosing.
 
-##### 1: Generate the Payload
+##### 1: Generate the payload
 
 In Cobalt Strike, select the _Payload Generator_ and generate a C# payload. 
 
 ![](/uploads/rti_2.png)
 
 ![](/uploads/rti_1.png)
+
+##### 2: Modify the payload 
+
+The outputted payload needs to be modified to work with Unicorn. Remove everything except the hex values. 
 
 ##### Link
 
