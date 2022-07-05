@@ -24,6 +24,10 @@ In the following demo, I will use C#, TrustedSec's Unicorn and PowerShell to cre
 
 ##### 1: Generate the Payload
 
+In Cobalt Strike, select the _Payload Generator_ and generate a C# payload. 
+
+![](/uploads/rti_2.png)
+
 ![](/uploads/rti_1.png)
 
 ##### Link
