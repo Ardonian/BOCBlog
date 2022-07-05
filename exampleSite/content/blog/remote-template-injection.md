@@ -24,7 +24,7 @@ In the following demo, I will use C#, TrustedSec's Unicorn and PowerShell to cre
 
 ##### 1: Generate the Payload
 
-![](/uploads/rti_1.png)
+![](/uploads/rti_1.png "Generate Payload ")
 
 ##### Link
 
