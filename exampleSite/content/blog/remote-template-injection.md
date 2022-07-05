@@ -12,9 +12,13 @@ type = "post"
 
 Injecting malicious macros into Microsoft Word documents is by no means a new and novel attack vector. It's been used to death, literally. Microsoft will disable all macros by default **in?**
 
-A red team specialist (or malicious actor) will write and inject some malicious VBA code in the macro section of an office document that will execute using **AUTO_OPEN** when the document is loaded. The document itself usually contains some content that is related to the attack scenario. For example, sending a resume to a human resources department. 
+A red team specialist (or malicious actor) will write and inject some malicious VBA code in the macro section of an office document that will execute using **AUTO_OPEN** when the document is loaded. The document itself usually contains some content that is related to the attack or phishing scenario. For example, sending a resume to a human resources department. The majority of good AV and EDR solutions will detect this attack today and block execution of the macro payload. 
 
-The majority of good AV and EDR solutions will detect this attack today and block execution of the macro payload. 
+Now, imagine having a document that doesn't include malicious code. A completely safe, friendly, innocent and benign .docx file. Except, that the document contains a link to a malicious remote template document that will load once the document is opened. This attack vector is known as remote template injection. Malicious code is stored remotely and and loaded as a remote template, without even touching the disk. 
+
+##### Attack Demonstration  
+
+This demonstration is for educational purposes only. 
 
 ##### Link
 
