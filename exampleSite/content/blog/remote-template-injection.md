@@ -1,10 +1,10 @@
 +++
-categories = ["Red Teaming", "Active Directory"]
+categories = ["Red Teaming", "Microsoft Office"]
 date = 2022-06-29T15:00:00Z
 description = "this is meta description"
 draft = true
-image = "images/post/ntlm.png"
-tags = ["NTLM"]
+image = "images/post/remote.png"
+tags = ["Remote Template Injection"]
 title = "Remote Template Injection "
 type = "post"
 
