@@ -19,7 +19,7 @@ Now, imagine having a document that doesn't include malicious code. A completely
 
 ##### Attack Demonstration  
 
-This demonstration is for educational purposes only. 
+This demonstration is for educational purposes only. In the following demo, I will use C#, TrustedSec's Unicorn and PowerShell 
 
 ##### Link
 
